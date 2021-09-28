@@ -3,49 +3,112 @@
   <head>
     <meta charset="UTF-8" />
     <title>Juan Alejandro Marin Ruiz</title>
+
+    <style type="text/css" media="screen">
+      .case {
+        border: solid lightgrey;
+        display: flex;
+        justify-content: start;
+        padding: 2rem 2rem;
+        margin: auto;
+      }
+
+      table {
+        border-collapse: collapse;
+        font-size: 0.9rem;
+        padding: 1rem;
+      }
+
+      table * {
+        border: solid blue;
+        font-family: sans-serif;
+        text-align: center;
+      }
+
+      th {
+        background-color: #70ff41;
+        color: rgba(125, 86, 15, 0.82);
+        padding: 0.2rem 3rem;
+        font-size: 1.3rem;
+      }
+      .number {
+        text-align: end;
+        padding: 1.3rem 0.2rem;
+      }
+
+      #red {
+        color: red;
+        font-style: italic;
+      }
+
+      @media screen and (max-width: 600px) {
+        .case {
+          width: 80%;
+        }
+
+        table {
+          width: 93%;
+        }
+      }
+
+      @media screen and (min-width: 600px) and (max-width: 1000px) {
+        .case {
+          width: 70%;
+        }
+
+        table {
+          width: 93%;
+        }
+      }
+
+      @media screen and (min-width: 1000px) and (max-width: 1300px) {
+        .case {
+          width: 60%;
+        }
+
+        table {
+          width: 93%;
+        }
+      }
+
+      @media screen and (min-width: 1300px) {
+        .case {
+          width: 750px;
+        }
+
+        table {
+          width: 93%;
+        }
+      }
+    </style>
   </head>
   <body>
     <!--Juan Alejandro Marin Ruiz-->
-    <table border style="width: 75%; border: blue; border-collapse: collapse">
-      <tr>
-        <th style="border-width: 4px; border-style: solid">Alumne</th>
-        <th colspan="2" style="border-width: 4px; border-style: solid">Nota</th>
-      </tr>
-      <tr>
-        <td rowspan="2">Pere</td>
-        <td>Primer examen</td>
-        <td>7</td>
-      </tr>
-      <tr>
-        <td style="border-width: 4px; border-style: solid; text-align: center">
-          Segon examen
-        </td>
-        <td style="border-width: 4px; border-style: solid; text-align: center">
-          9
-        </td>
-      </tr>
-      <tr>
-        <td
-          rowspan="2"
-          style="border-width: 4px; border-style: solid; text-align: center"
-        >
-          Pau
-        </td>
-        <td style="border-width: 4px; border-style: solid; text-align: center">
-          Primer examen
-        </td>
-        <td style="border-width: 4px; border-style: solid; text-align: center">
-          6
-        </td>
-      </tr>
-      <tr>
-        <td style="border-width: 4px; border-style: solid; text-align: center">
-          Segon examen
-        </td>
-        <td style="border-width: 4px; border-style: solid; text-align: center">
-          9
-        </td>
-      </tr>
-    </table>
+    <div class="case" style="border-bottom: none">
+      <table>
+        <tr>
+          <th>Alumne</th>
+          <th colspan="2">Nota</th>
+        </tr>
+        <tr>
+          <td rowspan="2">Pere</td>
+          <td>Primer examen</td>
+          <td class="number" id="red">4</td>
+        </tr>
+        <tr>
+          <td>Segon examen</td>
+          <td class="number">9</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Pau</td>
+          <td>Primer examen</td>
+          <td class="number">6</td>
+        </tr>
+        <tr>
+          <td>Segon examen</td>
+          <td class="number">9</td>
+        </tr>
+      </table>
+    </div>
   </body>
 </html>
