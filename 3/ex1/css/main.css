@@ -1,0 +1,53 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    color: peru;
+}
+
+.title {
+    display: inline-block;
+    color: rgb(215, 218, 201);
+    background-color: rgb(139, 64, 34);
+    border-radius: 0.3rem;
+    padding: 0.6rem;
+}
+
+body {
+    background-color: rgb(221, 226, 219);
+}
+
+img {
+    width: 25%;
+    border-radius: 1rem;
+    transition: border-radius 0.5s, box-shadow 0.5s;
+}
+
+img:hover {
+    border-radius: 0;
+    box-shadow: rgba(87, 86, 86, 0.774) 0.5rem 0.5rem 2rem;
+}
+
+li a {
+    color: rgb(158, 103, 1);
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(170, 48, 0);
+    border-radius: 0.2em;
+    padding: 0.2rem;
+}
+
+.ch-bg-hover {
+    transition: background-color 0.3s;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.ch-bg-hover:hover {
+    background-color: rgb(170, 48, 0);
+}
+
+a:hover {
+    text-decoration: underline;
+}
