@@ -54,8 +54,18 @@ a:visited {
     color: blue;
 }
 
+.weblink {
+    color: white;
+    background-color: black;
+}
+
+.weblink:visited {
+    color: white;
+}
+
 .weblink:hover {
-    background-color: rgba(0,0,0,0);
+    color: black;
+    background-color: white;
 }
 
 .theader1 {
@@ -67,7 +77,7 @@ a:visited {
 .theader2 {
     background-color: rgb(167, 104, 204);
     padding: 0.5rem;
-    text-shadow: 0rem 0rem 0.5rem rgb(143, 174, 231), 0rem 0rem 0.5rem rgb(143, 174, 231);
+    text-shadow: 0rem 0rem 0.5rem rgb(107, 44, 144), 0rem 0rem 0.5rem rgb(107, 104, 144);
 }
 
 
@@ -76,4 +86,20 @@ td {
     background-color: cadetblue;
     padding: 1rem;
     text-align: center;
+}
+
+.trowa td {
+    background-color: tomato;
+}
+
+.trowb td {
+    background-color: lightgreen;
+}
+
+#Golang tr th {
+    color: #9E0505;
+}
+
+#Rustlang tr th {
+    color: #004EB3;
 }
