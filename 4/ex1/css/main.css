@@ -1,0 +1,48 @@
+table {
+    margin: auto;
+}
+
+td {
+    width: 200px;
+    height: 200px;
+    /* background-image: url("./img/image.png"); */
+    background-image: url("../img/image.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+}
+
+.top-center {
+    background-position: top center;
+}
+
+.top-left {
+    background-position: top left;
+}
+
+.top-right {
+    background-position: top right;
+}
+
+.center {
+    background-position: center;
+}
+
+.center-left {
+    background-position: center left;
+}
+
+.center-right {
+    background-position: center right;
+}
+
+.bottom-center {
+    background-position: bottom center;
+}
+
+.bottom-left {
+    background-position: bottom left;
+}
+
+.bottom-right {
+    background-position: bottom right;
+}
