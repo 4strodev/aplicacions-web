@@ -47,6 +47,11 @@ table {
   width: 100%;
 }
 
+.nav-item a:hover {
+  color: var(--selected-color);
+  background-color: var(--selected-bgcolor);
+}
+
 div {
   background-color: var(--selected-bgcolor);
   padding-bottom: 100%;
@@ -66,6 +71,19 @@ div {
   background-color: var(--selected-bgcolor);
 }
 
-#selected {
-  color: black;
+.gencat-title {
+  color: rgb(204, 0, 0);
+}
+
+#light-font {
+  font-weight: lighter;
+}
+
+#tramits-title {
+  color: rgb(204, 0, 0);
+  font-size: 1rem;
+}
+
+.tramits td {
+  font-weight: bold;
 }
