@@ -1,0 +1,29 @@
+:root {
+    font-family: "Dejavu sans mono";
+    --border-width: 0.3rem;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+div {
+    width: 40%;
+    margin: auto;
+}
+
+#closed {
+    border: solid var(--border-width);
+    border-top-color: blue;
+    border-right-color: rgb(169, 221, 169);
+    border-bottom-color: tomato;
+    border-left-color: rgb(221, 105, 150);
+}
+
+#opened {
+    border: solid var(--border-width);
+    border-top-color: transparent;
+    border-right-color: rgb(169, 221, 169);
+    border-bottom-color: tomato;
+    border-left-color: rgb(221, 105, 150);
+}

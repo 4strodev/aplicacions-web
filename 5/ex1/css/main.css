@@ -1,0 +1,32 @@
+:root {
+    font-family: "dejavu sans mono";
+    --border-width: 0.4rem;
+}
+
+body {
+    background-color: lightgray;
+}
+
+div {
+    width: 40%;
+    margin: auto;
+}
+
+h1 {
+    border-top: dotted;
+    border-bottom: dashed;
+    border-left: solid;
+    border-right: double;
+
+    border-width: var(--border-width);
+}
+
+#over {
+    border: solid;
+    border-bottom: double;
+    border-width: var(--border-width);
+}
+
+#under {
+    border: groove var(--border-width);
+}

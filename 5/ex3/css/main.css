@@ -1,0 +1,31 @@
+:root {
+    font-family: monospace;
+    font-size: 1rem;
+    --background-buttons: red;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    border: solid;
+    border-width: 3px 2px 3px 0.5rem;
+    border-color: rgb(81, 156, 81);
+    padding: 0.5rem;
+    padding-left: 2rem;
+}
+
+div {
+    width: 40%;
+    margin: auto;
+}
+
+span {
+    background-color: grey;
+    border: solid;
+    border-width: 2px 0;
+    background-color: var(--background-buttons);
+}
