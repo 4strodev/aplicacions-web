@@ -8,7 +8,7 @@ html {
 
 body {
   display: grid;
-  grid-template-columns: 20% auto;
+  grid-template-columns: 17rem auto;
   grid-template-rows: 5rem auto;
   height: 100%;
   background-color: rgb(250, 250, 250);
@@ -20,6 +20,14 @@ body {
   text-align: center;
   background-color: lightgrey;
   color: rgb(26, 26, 26);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#titol h1 {
+  margin: 0;
 }
 
 #contingut {
@@ -46,17 +54,17 @@ iframe {
   padding: 0;
 }
 
-#aside ul li a {
-  color: rgb(247, 247, 247);
-  text-decoration: none;
-  font-size: 1.5rem;
-}
-
 #aside ul li {
     text-align: center;
 }
 
-#aside ul li a:hover {
+#aside ul li a {
+  color: rgb(247, 247, 247);
+  text-decoration: none;
+  font-size: 1.5rem;
   transition: font-size 1s;
+}
+
+#aside ul li a:hover {
   font-size: 2rem;
 }
