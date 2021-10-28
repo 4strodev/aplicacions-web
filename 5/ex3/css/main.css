@@ -1,7 +1,7 @@
 :root {
     font-family: monospace;
     font-size: 1rem;
-    --background-buttons: red;
+    --background-buttons: grey;
 }
 
 body {

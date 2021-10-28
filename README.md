@@ -1,7 +1,7 @@
 # **Aplicaciones web ejercicios prácticos**
 
 Este repositorio guarda mis ejercicios de la asignatura aplicaciones web.
-Esta hecho unicamente con html y css
+Esta hecho unicamente con html y css.
 
 ## **Herramientas recomendadas para trabajar con este repositorio**
 - Un editor de codigo recomendable usar [Visual Studio **Code**](https://code.visualstudio.com) con estas extensiones:
