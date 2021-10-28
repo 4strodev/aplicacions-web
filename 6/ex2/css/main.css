@@ -46,11 +46,19 @@ iframe {
     rgb(78, 78, 78) 0%,
     rgba(41, 41, 43) 61%
   );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #aside ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 #aside ul li {
