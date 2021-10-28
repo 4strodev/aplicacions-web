@@ -10,7 +10,7 @@ Esta hecho unicamente con html y css.
 - **Un navegador basado en chromium** *(Estas páginas no se crearon pensando en otros navegadores)*
 
 ## **Como trabajar con el repositorio**
-Si nuna has trabajado con git recomiendo descargar un comprimido con el contenido del repositorio.
+Si nunca has trabajado con git recomiendo descargar un comprimido con el contenido del repositorio.
 ![download zip image](/images/download_zip.png)
 
 **Si ya tienes experiencia con git clona el repositorio**
