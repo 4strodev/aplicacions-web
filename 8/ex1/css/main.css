@@ -1,0 +1,37 @@
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60rem;
+    margin: auto;
+}
+
+.sub {
+    display: none;
+}
+
+.menu + .item:hover .sub {
+    display: block;
+    position: absolute;
+}
+
+.item {
+    background-color: green;
+    width: 20rem;
+    text-align: center;
+}
+
+.final {
+    display: block;
+    text-align: left;
+}
+
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
