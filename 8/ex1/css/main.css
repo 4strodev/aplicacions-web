@@ -1,37 +1,75 @@
-.nav {
-    display: flex;
-    justify-content: space-evenly;
-    width: 60rem;
-    margin: auto;
+:root {
+  color: white;
+  --item-bgcolor: rgb(0, 99, 0);
+  --hover-bgcolor: rgb(112, 0, 52);
+  --hover-fgcolor: yellow;
 }
 
-.sub {
-    display: none;
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  height: 4rem;
 }
 
-.menu + .item:hover .sub {
-    display: block;
-    position: absolute;
+.desplegable {
+  width: 10rem;
 }
 
-.item {
-    background-color: green;
-    width: 20rem;
-    text-align: center;
+.titol-desplegable {
+  background-color: var(--item-bgcolor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 1.2rem;
 }
 
-.final {
-    display: block;
-    text-align: left;
+.desplegable:hover .llistat {
+  display: block;
 }
 
-li {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.llistat {
+  display: none;
+  position: relative;
+  left: 1rem;
+  top: -1rem;
+}
+
+.element {
+  background-color: var(--item-bgcolor);
+  display: block;
+  height: 2.2rem;
+  padding: 0.8rem;
+}
+
+.element span {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.hover-color:hover {
+    background-color: var(--hover-bgcolor);
+    color: var(--hover-fgcolor);
+}
+
+.ombra {
+  box-shadow: 0.3rem 0.3rem 0.3rem black, -0.1rem -0.1rem 0.3rem black;
 }
 
 ul {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+#over-index {
+    z-index: 2;
 }
