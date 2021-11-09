@@ -1,0 +1,89 @@
+/* Setting global font family */
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Setting animations */
+@keyframes expand-icon {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes dropdown-label {
+  0% {
+    transform: translateY(-1em);
+  }
+  100% {
+    transfrom: translateY(0);
+  }
+}
+
+@keyframes pullup-label {
+    0% {
+        transform: translateY(1rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Setting styles and animations */
+.button {
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  background: rgb(0, 212, 195);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 195, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  width: 20rem;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 0.3rem;
+  box-shadow: 0.3rem 0.3rem 0.3rem rgba(53, 53, 53, 0.726);
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+span {
+  text-align: center;
+}
+
+.main-label {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.sublabel {
+  font-size: 1.5rem;
+}
+
+img {
+  /* Para mantener las proporciones de la imagen */
+  height: 100%;
+}
+
+.button:hover img {
+  animation: expand-icon 0.2s;
+}
+
+.button:hover .main-label {
+    animation: dropdown-label 0.2s;
+}
+
+.button:hover .sublabel {
+    animation: pullup-label 0.2s;
+}
