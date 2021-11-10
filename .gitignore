@@ -1,2 +1,5 @@
 .vscode
 **/.\~*\#
+**/*.zip
+**/*.pdf
+/4/README.txt
