@@ -1,0 +1,45 @@
+@import url(./reset.css);
+
+:root {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+}
+
+td {
+    border-color: blue;
+    border-width: 0.1rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 75%;
+  margin: auto;
+}
+
+#negre {
+  background-color: black;
+}
+
+#dilluns {
+  background-color: #666666;
+}
+
+#dimarts {
+  background-color: #7fff00;
+}
+
+#dimecres {
+  background-color: #cc3333;
+}
+
+#dijous {
+  background-color: #ff33cc;
+}
+
+#divendres {
+  background-color: #87ceeb;
+}
+
+.hores {
+    background-color: #7fff00;
+}

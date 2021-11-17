@@ -1,0 +1,38 @@
+@import url(./reset.css);
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+a {
+    color: white;
+    background-color: rgb(11, 166, 255);
+    text-decoration: none;
+    padding: 1em;
+    display: block;
+    border: 0.2rem solid black;
+}
+
+a:hover {
+    background-color: red;
+}
+
+#subitem {
+    padding: 1em;
+    display: block;    
+}
+
+#subitem:hover {
+    background-color: red;
+}
+
+#submenu {
+    display: none;
+}
+
+#menu:hover #submenu{
+    display: block;
+}
